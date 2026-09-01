@@ -312,6 +312,7 @@
  document.addEventListener('contextmenu', (e) => e.preventDefault());
     document.addEventListener('selectstart', (e) => e.preventDefault());
     document.addEventListener('dragstart', (e) => e.preventDefault());
+            window.oncontextmenu = (e) => e.preventDefault();
 </script>
         <script src="main.js"></script>
     </body>
