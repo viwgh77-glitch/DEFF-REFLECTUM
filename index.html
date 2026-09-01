@@ -308,6 +308,11 @@
     </head>
     <body>
         <main id="shablon"></main>
+        <script>
+ document.addEventListener('contextmenu', (e) => e.preventDefault());
+    document.addEventListener('selectstart', (e) => e.preventDefault());
+    document.addEventListener('dragstart', (e) => e.preventDefault());
+</script>
         <script src="main.js"></script>
     </body>
 </html>
