@@ -1,4 +1,4 @@
-            let moment = 3;
+            let moment = 0;
 document.addEventListener('contextmenu', (e) => e.preventDefault());
 document.addEventListener('selectstart', (e) => e.preventDefault());
 document.addEventListener('dragstart', (e) => e.preventDefault());
